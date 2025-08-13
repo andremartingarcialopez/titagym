@@ -1,3 +1,4 @@
+import ContactoHomePage from "./ContactoHomePage";
 import UserCard from "./UserCard";
 
 export default function Reviews() {
@@ -18,8 +19,7 @@ export default function Reviews() {
 
                 </div>
             </div>
-
-
+            <ContactoHomePage />
         </>
     )
 }

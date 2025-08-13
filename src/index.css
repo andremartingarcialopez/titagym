@@ -6,7 +6,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
 
+.bg-img-layout-homePage-contacto{
+  background-image: url("/Wallpaper2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body{
