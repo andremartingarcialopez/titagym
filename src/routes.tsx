@@ -6,7 +6,7 @@ export default function AppRoutes() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/homePage" element={<HomePage/>} />
+                    <Route path="/" element={<HomePage/>} />
                 </Routes>
             </BrowserRouter>
         </div>
