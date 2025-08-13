@@ -13,8 +13,8 @@ export default function OurFamily() {
           </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center  ">
-            <img className="lg:w-60 xl:w-85" src="/public/vertical1.jpg" alt="" />
-            <img className="lg:w-60 xl:w-85" src="/public/vertical2.jpg" alt="" />
+            <img className="lg:w-60 xl:w-85" src="/vertical1.jpg" alt="" />
+            <img className="lg:w-60 xl:w-85" src="/vertical2.jpg" alt="" />
           </div>
         </div>
       </div>
