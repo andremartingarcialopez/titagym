@@ -43,7 +43,7 @@ export default function ContactoHomePage() {
         if (!validateEmail(form.email)) {
             toast.error('Email no valido', {
                 position: "top-center",
-                autoClose: 1500,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: false,
@@ -58,7 +58,7 @@ export default function ContactoHomePage() {
         if (form.phone.length < 10) {
             toast.error('Numero telefonico no valido', {
                 position: "top-center",
-                autoClose: 1500,
+                autoClose: 2000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: false,
@@ -78,7 +78,7 @@ export default function ContactoHomePage() {
         })
         toast.success('¡Te contactaremos pronto!', {
             position: "top-center",
-            autoClose: 1500,
+            autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: false,
