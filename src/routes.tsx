@@ -6,12 +6,16 @@ import MoreInformationPage from './pages/MoreInformationPage'
 import OurGymPage from './pages/OurGymPage'
 import PersonalizedTrainingPage from './pages/PersonalizedTrainingPage'
 import GroupClassPage from './pages/GroupClassPage'
+import Layout from './layout/layout'
 
 export default function AppRoutes() {
     return (
         <div>
             <BrowserRouter>
                 <Routes>
+                    <Route element={<Layout/>}>
+
+                    
                     <Route path="/" element={<HomePage/>} />
                     <Route path="/joinUs" element={<JoinUsPage/>} />
                     <Route path="/ourFamily" element={<OurFamilyPage/>}/>
@@ -19,6 +23,8 @@ export default function AppRoutes() {
                     <Route path="/our-gym" element={<OurGymPage/>}/>
                     <Route path="/personalized-training" element={<PersonalizedTrainingPage/>}/>
                     <Route path="/group-class" element={<GroupClassPage/>}/>
+
+                    </Route>
                 </Routes>
             </BrowserRouter>
         </div>

@@ -4,7 +4,7 @@ import OurServices from "./OurServices";
 export default function OurFamily() {
   return (
     <>
-      <div className="bg-black">
+      <div id="ourFamily" className="bg-black scroll-mt-30">
         <div className=" grid grid-cols-1 xl:h-screen md:grid-cols-2 justify-center items-center mx-auto container gap-15">
           <div className="m-5 xl:m-0">
             <h2 className="text-yellow-400 text-5xl font-semibold">Sobre nuestra <span className="block">Familia Deportiva</span></h2>
@@ -15,8 +15,8 @@ export default function OurFamily() {
           </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center  ">
-            <img className="lg:w-60 xl:w-85" src="/vertical1.jpg" alt="" />
-            <img className="lg:w-60 xl:w-85" src="/vertical2.jpg" alt="" />
+            <img className="lg:w-60 xl:w-85" src="/vertical1.webp" alt="" />
+            <img className="lg:w-60 xl:w-85" src="/vertical2.webp" alt="" />
           </div>
         </div>
       </div>

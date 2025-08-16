@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Footer from "./Footer";
 import { Slide, toast, } from "react-toastify"
 
 export default function ContactoHomePage() {
@@ -92,7 +91,7 @@ export default function ContactoHomePage() {
 
     return (
         <>
-            <div className="bg-img-layout-homePage-contacto">
+            <div id="contact" className="bg-img-layout-homePage-contacto scroll-mt-30">
                 <div className="bg-black/50 ">
 
 
@@ -154,7 +153,6 @@ export default function ContactoHomePage() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }
