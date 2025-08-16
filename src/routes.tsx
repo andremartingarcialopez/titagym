@@ -6,14 +6,15 @@ import MoreInformationPage from './pages/MoreInformationPage'
 import OurGymPage from './pages/OurGymPage'
 import PersonalizedTrainingPage from './pages/PersonalizedTrainingPage'
 import GroupClassPage from './pages/GroupClassPage'
-import Layout from './layout/layout'
+import LayoutPages from './layout/LayoutPages'
+
 
 export default function AppRoutes() {
     return (
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route element={<Layout/>}>
+                    <Route element={<LayoutPages/>}>
 
                     
                     <Route path="/" element={<HomePage/>} />
