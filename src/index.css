@@ -15,6 +15,13 @@
   background-position: center;
 }
 
+.bg-ourFamily{
+   background-image: url("/nuestra-familia-deportiva-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 body{
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import OurServices from "./OurServices";
 
 export default function OurFamily() {
@@ -9,7 +10,8 @@ export default function OurFamily() {
             <h2 className="text-yellow-400 text-5xl font-semibold">Sobre nuestra <span className="block">Familia Deportiva</span></h2>
             <p className="text-white my-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo vel magni vero aperiam veritatis sit quas soluta praesentium velit architecto. Rem nihil dolor, fugit distinctio nesciunt in repudiandae obcaecati aliquam! Eligendi expedita repudiandae ullam possimus aliquam tenetur ut, praesentium vero.</p>
 
-            <p className="text-white hover:underline cursor-pointer">Mas Informacion</p>
+            
+            <NavLink to={"/moreInformation"} className="text-white hover:underline cursor-pointer">Mas Informacion </NavLink>
           </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center  ">

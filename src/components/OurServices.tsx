@@ -16,9 +16,9 @@ export default function OurServices() {
           </div>
 
           <div className="flex flex-col xl:flex-row justify-center items-center xl:gap-5 group my-3">
-            <ServicesImages title={"nuestro Gimnasio"} image={"/nuestro-gym.jpg"}/>
-            <ServicesImages title={"Enytrenamientos Personalizados"} image={"/clases-grupos.jpg"}/>
-            <ServicesImages title={"Clases en grupos"} image={"/entrenamientos-personalizados.jpg"}/>
+            <ServicesImages link="/our-gym" title={"nuestro Gimnasio"} image={"/nuestro-gym.jpg"}/>
+            <ServicesImages link="/personalized-training" title={"Entrenamientos Personalizados"} image={"/clases-grupos.jpg"}/>
+            <ServicesImages link="/group-class" title={"Clases en grupos"} image={"/entrenamientos-personalizados.jpg"}/>
           </div>
 
         </div>
