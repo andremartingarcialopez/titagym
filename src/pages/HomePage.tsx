@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="flex flex-col justify-center items-center h-screen pb-20 px-2">
             <h1 className="text-yellow-400 text-center text-4xl md:text-8xl font-bold uppercase border-b-4 pb-3">Se la mejor version de ti</h1>
 
-            <NavLink className=" mt-10 bg-yellow-400 w-50 rounded-lg text-center text-2xl p-1 hover:font-semibold hover:text-black cursor-pointer hover:bg-yellow-500" to={"/joinUs"}>Unete Hoy</NavLink>
+            <NavLink className=" mt-10 bg-yellow-400 uppercase w-50 rounded-lg text-center text-2xl p-1 hover:font-semibold hover:text-black cursor-pointer hover:bg-yellow-500" to={"/joinUs"}>Unete Hoy</NavLink>
           </div>
         </div>
       </div>

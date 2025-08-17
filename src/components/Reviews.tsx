@@ -12,8 +12,8 @@ export default function Reviews() {
                     </div>
 
                     <div className="flex flex-col lg:flex-row justify-center items-center gap-10 xl:gap-5 m-3">
-                        <UserCard image={"/atleta2.webp"} name={"Priya Garcia"} age={"27"} comment={"Excelente ambiente y entrenadores muy atentos. He visto resultados en pocas semanas."} />
-                        <UserCard image={"/atleta1.webp"} name={"Kin Jhon"} age={"33"} comment={"Instalaciones modernas y limpias. Me encanta la variedad de clases que ofrecen."} />
+                        <UserCard image={"/atleta2.webp"} name={"Priya Packers"} age={"27"} comment={"Excelente ambiente y entrenadores muy atentos. He visto resultados en pocas semanas."} />
+                        <UserCard image={"/atleta1.webp"} name={"Chuy Garcia"} age={"33"} comment={"Instalaciones modernas y limpias. Me encanta la variedad de clases que ofrecen."} />
                         <UserCard image={"/atleta3.webp"} name={"Maria Cena"} age={"31"} comment={"El personal es súper motivador y siempre dispuesto a ayudar. ¡Recomendado al 100%!"} />
                     </div>
 
