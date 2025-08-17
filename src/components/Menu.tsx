@@ -12,7 +12,7 @@ export default function Menu() {
 
   return (
     <div className="relative">
-      <Bars4Icon onClick={() => toggleMenu()} className={`w-10 h-10 hover:cursor-pointer text-white ${isOpen && "hidden"}`}/>
+      <Bars4Icon onClick={() => toggleMenu()} className={`w-7 md:w-10 hover:cursor-pointer text-white ${isOpen && "hidden"}`}/>
 
       <div className={`fixed top-0 right-0 w-50 h-auto rounded-lg  bg-black/70 shadow-lg transform ${isOpen? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out z-50`}>
 
