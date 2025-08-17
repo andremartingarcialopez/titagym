@@ -115,11 +115,15 @@ export default function ContactoHomePage() {
                             <div>
                                 <label className="text-gray-800 "
                                     htmlFor="age">Edad</label>
+
                                 <input className="w-full outline-amber-400 rounded-lg p-2 bg-gray-400/30 text-sm"
                                     type="number"
                                     placeholder="Ej. 27"
                                     id="age"
                                     value={form.age}
+                                    min="1"
+                                    max="120"
+                                    step="1"
                                     onChange={handleChange} />
                             </div>
 

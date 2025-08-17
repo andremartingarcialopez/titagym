@@ -32,13 +32,19 @@ body{
   background-position: center;
 }
 
+.bg-img-join-us{
+     background-image: url("/joinUsWallpaper.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .glass{
   /* From https://css.glass */
-background: rgba(0, 0, 0, 0.27);
+background: rgba(0, 0, 0, 0.1);
 box-shadow: 0 4px 100px rgba(196, 192, 192, 0.1);
-backdrop-filter: blur(6.7px);
+backdrop-filter: blur(3px);
 -webkit-backdrop-filter: blur(6.7px);
-border: 1px solid rgba(0, 0, 0, 1);
 }
 
 
