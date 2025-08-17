@@ -1,5 +1,6 @@
 import { CheckCircleIcon, XCircleIcon } from "lucide-react";
 import ModalJoinUs from "./ModalJoinUs";
+import { useAppStore } from "../stores/useAppStore";
 
 
 
@@ -20,6 +21,9 @@ type PackesCardProps = {
 
 
 export default function PackagesCard({ pack, subtitle, totalPrice, duration, benefits }: PackesCardProps) {
+
+    const {opeanModal} = useAppStore()
+
     return (
         <>
             <div className="text-white p-5 rounded-lg border border-yellow-400 shadow shadow-yellow-400 bg-gray-900/20">
@@ -55,7 +59,7 @@ export default function PackagesCard({ pack, subtitle, totalPrice, duration, ben
                     </div>
                 </div>
 
-                <button className="bg-yellow-400 w-full mt-5 p-2 rounded-lg uppercase text-black hover:font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-400">¡Inscribite ya!</button>
+                <button onClick={() => opeanModal()} className="bg-yellow-400 w-full mt-5 p-2 rounded-lg uppercase text-black hover:font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-400">¡Inscribite ya!</button>
 
             </div>
 
