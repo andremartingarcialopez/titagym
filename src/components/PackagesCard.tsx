@@ -1,4 +1,5 @@
 import { CheckCircleIcon, XCircleIcon } from "lucide-react";
+import ModalJoinUs from "./ModalJoinUs";
 
 
 
@@ -21,7 +22,7 @@ type PackesCardProps = {
 export default function PackagesCard({ pack, subtitle, totalPrice, duration, benefits }: PackesCardProps) {
     return (
         <>
-            <div className="text-white glass p-5 rounded-lg border border-yellow-400 shadow-lg shadow-yellow-400">
+            <div className="text-white p-5 rounded-lg border border-yellow-400 shadow shadow-yellow-400 bg-gray-900/20">
                 <h2 className="bg-yellow-400 text-2xl w-40 text-center text-black font-semibold uppercase rounded-lg">{pack}</h2>
                 <div className="flex flex-col justify-center items-stretch gap-8">
                     <div>
@@ -54,9 +55,11 @@ export default function PackagesCard({ pack, subtitle, totalPrice, duration, ben
                     </div>
                 </div>
 
-                <button className="bg-yellow-400 w-full mt-5 p-2 rounded-lg uppercase text-black hover:font-semibold cursor-pointer hover:bg-yellow-600 active:bg-yellow-400">¡Inscribite ya!</button>
+                <button className="bg-yellow-400 w-full mt-5 p-2 rounded-lg uppercase text-black hover:font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-400">¡Inscribite ya!</button>
 
             </div>
+
+            <ModalJoinUs/>
         </>
     )
 }

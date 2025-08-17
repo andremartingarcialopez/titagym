@@ -16,12 +16,12 @@ export default function JoinUsPage() {
         <div className="mx-auto container">
           <h2 className="text-yellow-400 text-5xl font-semibold py-10">Nuestros Paquetes</h2>
 
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 mb-3">
             <PackagesCard
               pack="Titan"
               subtitle="Plan completo para entrenar sin límites"
               totalPrice="$599.00"
-              duration="12 meses"
+              duration="12 meses de fidelidad"
               benefits={[
                 { text: "Acceso ilimitado a + 1.700 gimnasios de la red", included: true },
                 { text: "Entrena hasta con 5 amigos al mes", included: true },
@@ -52,7 +52,7 @@ export default function JoinUsPage() {
             <PackagesCard
               pack="Aldeano"
               subtitle="Entrena cuando quieras en tu gimnasio de elección"
-              totalPrice="$399.00"
+              totalPrice="$299.00"
               duration="Sin fidelidad"
               benefits={[
                 { text: "Acceso ilimitado a + 1.700 gimnasios de la red", included: false },

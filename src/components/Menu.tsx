@@ -1,18 +1,35 @@
-import { Bars4Icon } from "@heroicons/react/16/solid";
+import { ArrowUturnLeftIcon, Bars4Icon } from "@heroicons/react/16/solid";
 import { XCircle } from "lucide-react";
-import { useState } from "react"
+import { useMemo, useState } from "react"
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Menu() {
 
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
+    
 
     function toggleMenu() {
         setIsOpen(!isOpen);
     }
 
+    const isHome = useMemo(() => {
+      return location.pathname == "/"
+    },[location.pathname]);
+
+    
+
+
+
   return (
     <div className="relative">
-      <Bars4Icon onClick={() => toggleMenu()} className={`w-7 md:w-10 hover:cursor-pointer text-white ${isOpen && "hidden"}`}/>
+      {isHome ?
+      <Bars4Icon onClick={() => toggleMenu()} className={`w-7 md:w-8 hover:cursor-pointer text-white ${isOpen && "hidden"}`}/> :
+      <NavLink to={"/"}>
+        <ArrowUturnLeftIcon className="w-7 md:w-8 hover:cursor-pointer text-white"/>
+      </NavLink>
+      }
+      
 
       <div className={`fixed top-0 right-0 w-50 h-auto rounded-lg  bg-black/70 shadow-lg transform ${isOpen? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out z-50`}>
 
