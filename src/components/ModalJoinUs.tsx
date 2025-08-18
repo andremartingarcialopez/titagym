@@ -1,10 +1,15 @@
-import { Fragment } from 'react'
+import { Fragment, } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { useAppStore } from '../stores/useAppStore'
+import Formulary from './Formulary';
 
 export default function ModalJoinUs() {
 
     const { modal, closeModal } = useAppStore();
+
+    /* const isJoinUs = useMemo(() => {
+      return location.pathname == "/joinUs"
+    },[location.pathname]); */
 
     return (
         <>
@@ -19,7 +24,7 @@ export default function ModalJoinUs() {
                         leaveFrom="opacity-100"
                         leaveTo="opacity-0"
                     >
-                        <div className="fixed inset-0 bg-gray-900/20" />
+                        <div className="fixed inset-0 bg-black/50" />
                     </Transition.Child>
 
                     <div className="fixed inset-0 overflow-y-auto">
@@ -33,8 +38,10 @@ export default function ModalJoinUs() {
                                 leaveFrom="opacity-100 scale-100"
                                 leaveTo="opacity-0 scale-95"
                             >
-                                <Dialog.Panel className="w-full max-w-3xl transform overflow-hidden rounded-2xl bg-black/70 border m-2 border-yellow-400 p-6 text-left align-middle shadow-xl transition-all">
-                                    <form action="">
+                                <Dialog.Panel className="w-full max-w-3xl transform overflow-hidden rounded-2xl m-2 p-6 text-left align-middle  transition-all xl:mt-20">
+
+                                    <Formulary />
+                                    {/* <form action="">
                                         <div>
                                             <label className="text-white "
                                                 htmlFor="name">Nombre</label>
@@ -86,9 +93,9 @@ export default function ModalJoinUs() {
                                                 value={"Contactame"}
                                                 type="submit" />
 
-                                            <button type='button' onClick={() => closeModal()} className="bg-gray-400 p-2 rounded-lg uppercase hover:bg-gray-500 cursor-pointer hover:font-semibold active:bg-yellow-400 mt-3 w-full lg:w-50">Cerrar</button>
+                                            <button  type='button' onClick={() => closeModal()} className={`bg-gray-400 p-2 rounded-lg uppercase hover:bg-gray-500 cursor-pointer hover:font-semibold active:bg-yellow-400 mt-3 w-full lg:w-50 ${!isJoinUs && "hidden"}`}>Cerrar</button>
                                         </div>
-                                    </form>
+                                    </form> */}
 
                                 </Dialog.Panel>
                             </Transition.Child>
