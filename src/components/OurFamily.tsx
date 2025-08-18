@@ -11,7 +11,7 @@ export default function OurFamily() {
             <p className="text-white my-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo vel magni vero aperiam veritatis sit quas soluta praesentium velit architecto. Rem nihil dolor, fugit distinctio nesciunt in repudiandae obcaecati aliquam! Eligendi expedita repudiandae ullam possimus aliquam tenetur ut, praesentium vero.</p>
 
             
-            <NavLink to={"/moreInformation"} className="text-white hover:underline cursor-pointer">Mas Informacion </NavLink>
+            <NavLink to={"/ourFamily"} className="text-white hover:underline cursor-pointer">Mas Informacion </NavLink>
           </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center  ">
