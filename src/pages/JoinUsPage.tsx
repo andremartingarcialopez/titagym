@@ -1,16 +1,10 @@
+import HeroImage from "../components/HeroImage";
 import PackagesCard from "../components/PackagesCard";
 
 export default function JoinUsPage() {
   return (
     <>
-      <div className="bg-img-join-us  xl:h-screen">
-        <div className="bg-black/50 h-screen ">
-
-          <div className="flex flex-col justify-center items-center h-screen pb-20 px-2">
-            <h1 className="text-yellow-400 text-center text-4xl md:text-8xl font-bold uppercase border-b-4 pb-3">Llego la hora de cambiar tu vida</h1>
-          </div>
-        </div>
-      </div>
+      <HeroImage bgImage="bg-img-join-us" title="Hora de cambiar tu vida"/>
 
       <div className="bg-black p-2 scroll-mt-30 ">
         <div className="mx-auto container">

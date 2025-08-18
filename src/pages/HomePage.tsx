@@ -1,20 +1,11 @@
-import { NavLink } from "react-router-dom";
 import OurFamily from "../components/OurFamily";
+import HeroImage from "../components/HeroImage";
 
 
 export default function HomePage() {
   return (
     <>
-      <div className="bg-img-layout-home xl:h-screen">
-        <div className="bg-black/50 h-screen ">
-
-          <div className="flex flex-col justify-center items-center h-screen pb-20 px-2">
-            <h1 className="text-yellow-400 text-center text-4xl md:text-8xl font-bold uppercase border-b-4 pb-3">Se la mejor version de ti</h1>
-
-            <NavLink className=" mt-10 bg-yellow-400 uppercase w-50 rounded-lg text-center text-2xl p-1 hover:font-semibold hover:text-black cursor-pointer hover:bg-yellow-500" to={"/joinUs"}>Unete Hoy</NavLink>
-          </div>
-        </div>
-      </div>
+      <HeroImage bgImage ="bg-img-layout-home" title="Se la mejor version de ti"/>
 
       <OurFamily/>
     </>

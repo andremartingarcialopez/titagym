@@ -4,48 +4,54 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.bg-img-layout-home{
+.bg-img-layout-home {
   background-image: url("/Wallpaper.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.bg-img-layout-homePage-contacto{
+.bg-img-layout-homePage-contacto {
   background-image: url("/Wallpaper2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.bg-ourFamily{
-   background-image: url("/nuestra-familia-deportiva-wallpaper.webp");
+.bg-ourFamily {
+  background-image: url("/nuestra-familia-deportiva-wallpaper.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.bg-img-join-us{
-     background-image: url("/joinUsWallpaper.webp");
+.bg-img-join-us {
+  background-image: url("/joinUsWallpaper.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.glass{
+.bg-img-our-family {
+  background-image: url("https://img.freepik.com/foto-gratis/cerrar-instructores-yoga-sonriendo_23-2150848045.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.glass {
   /* From https://css.glass */
   background-color: rgba(35, 34, 34, 0.3);
   box-shadow: 0 8px 32px 0 rgba(60, 60, 61, 0.37);
   backdrop-filter: blur(4.0px);
   /*Linea clave*/
   border: 0px solid rgba(255, 255, 255, 0.18);
-  
-}
 
+}

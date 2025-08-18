@@ -1,8 +1,7 @@
+import HeroImage from "../components/HeroImage";
 
 export default function MoreInformationPage() {
   return (
-    <div>
-      Mas informacion
-    </div>
+    <HeroImage bgImage ="bg-ourFamily" title="Nuestra Familia"/>
   )
 }
