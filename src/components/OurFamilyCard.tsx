@@ -11,11 +11,11 @@ export default function OurFamilyCard({ image, name, age, specialty, description
 
 
   return (
-    <div className=" flex flex-col md:flex-row bg-yellow-400 rounded-lg p-2 justify-center items-center">
+    <div className=" flex flex-col lg:flex-row bg-yellow-400 rounded-lg p-2 justify-center items-center">
       
       <div className="">
-        <p className="text-center md:text-left font-semibold py-2 text-xl md:text-3xl">{name}</p>
-        <img className=" rounded-lg bg-yellow-400 " src={image} alt="Imagen de Felix" />
+        <p className="text-center lg:text-left mb-2 font-semibold py-2 text-xl md:text-3xl">{name}</p>
+        <img className=" rounded-lg bg-yellow-400  " src={image} alt="Imagen de Felix" />
       </div>
 
       <div className="py-2 md:text-xl">

@@ -13,7 +13,7 @@ export default function OurFamilyPage() {
             <h2 className="text-yellow-400 text-5xl font-semibold text-center py-10 xl:my-0">Nuestros Entrenadores</h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-5 mx-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 m-2">
             <OurFamilyCard
               image="https://img.freepik.com/foto-gratis/hombre-atletico-practicando-gimnasia-mantenerse-forma_23-2150989961.jpg"
               name="Felix Pakers"
@@ -46,8 +46,53 @@ export default function OurFamilyPage() {
               description="Excompetidora de artes marciales mixtas con trayectoria en torneos internacionales. Su entrenamiento combina fuerza explosiva, velocidad y confianza personal."
             />
           </div>
+
+          <div className=" grid grid-cols-1 justify-center items-center mx-auto container">
+            <div className="mx-5 xl:m-0">
+              <h2 className="text-yellow-400 text-5xl font-semibold text-center py-10 xl:my-0">Nuestros Medicos Deportivos</h2>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-2 my-5">
+            <OurFamilyCard
+              image="https://img.freepik.com/foto-gratis/vista-delantera-enfermero-hospital_23-2150796810.jpg"
+              name="Juan Carlos Ramírez"
+              age="40"
+              specialty="Médico deportivo"
+              description="Doctor con más de 10 años de experiencia en medicina aplicada al deporte. Se especializa en la prevención y tratamiento de lesiones musculares y articulares, garantizando que los atletas puedan entrenar de forma segura y sostenida en el tiempo."
+            />
+
+            <OurFamilyCard
+              image="https://img.freepik.com/foto-gratis/enfermera-tiro-medio-hospital_23-2150796754.jpg"
+              name="Mariana Torres"
+              age="30"
+              specialty="Nutrióloga deportiva"
+              description="Experta en planes alimenticios para deportistas y personas activas. Diseña programas de nutrición personalizados que maximizan energía, fuerza y recuperación, adaptados tanto a principiantes como a atletas de alto rendimiento."
+            />
+
+            <OurFamilyCard
+              image="https://img.freepik.com/foto-gratis/vista-delantera-enfermero-hospital_23-2150796730.jpg"
+              name="Alejandro Díaz"
+              age="45"
+              specialty="Fisioterapeuta deportivo."
+              description="Especialista en rehabilitación y recuperación física. Ha trabajado con atletas profesionales en procesos de recuperación post-lesión y en programas de movilidad, fortalecimiento y prevención de recaídas."
+            />
+
+            <OurFamilyCard
+              image="https://img.freepik.com/foto-gratis/enfermera-tiro-medio-hospital_23-2150796726.jpg"
+              name="Laura Packers"
+              age="41"
+              specialty="Cardióloga deportiva"
+              description="Doctora especializada en la salud cardiovascular de atletas y personas físicamente activas. Realiza evaluaciones médicas y pruebas de esfuerzo para optimizar el rendimiento, mejorar la resistencia y garantizar entrenamientos seguros."
+            />
+          </div>
         </div>
+
+
+
       </div>
+
+
     </>
   )
 }
