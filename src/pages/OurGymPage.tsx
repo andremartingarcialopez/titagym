@@ -12,6 +12,14 @@ export default function OurGymPage() {
     { label: "Locker Rooms", value: "Vestidores cómodos con duchas, casilleros personales y áreas de descanso." },
   ]
 
+    const equipamiento = [
+    { label: "Máquinas de última tecnología:", value: "Life Fitness, Technogym o similares, con monitoreo digital y ajustes ergonómicos." },
+    { label: "Pesas y accesorios:", value: "Mancuernas desde 1 kg hasta 50 kg, bandas de resistencia, balones medicinales, foam rollers." },
+    { label: "Tecnología deportiva:", value: "Monitores de ritmo cardíaco, aplicaciones móviles integradas para seguimiento de entrenamientos y calorías." },
+    { label: "Equipos especializados:", value: "Prensa de pierna, multipower, poleas ajustables, bancos ajustables, rack olímpico." },
+    { label: "Accesorios de entrenamiento funcional:", value: "Cuerdas, escalera de agilidad, trineos de empuje y neumáticos de gran tamaño para entrenamientos explosivos." }
+  ]
+
 
   return (
     <>
@@ -22,6 +30,8 @@ export default function OurGymPage() {
         <div className=" grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto container">
 
           <OurGymCard title="Instalaciones" items={instalaciones} />
+          <OurGymCard title="Equipamiento" items={equipamiento} />
+
 
 
 
