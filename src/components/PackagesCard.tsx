@@ -22,7 +22,7 @@ type PackesCardProps = {
 
 export default function PackagesCard({ pack, subtitle, totalPrice, duration, benefits }: PackesCardProps) {
 
-    const {opeanModal} = useAppStore()
+    const { opeanModal } = useAppStore()
 
     return (
         <>
@@ -63,7 +63,7 @@ export default function PackagesCard({ pack, subtitle, totalPrice, duration, ben
 
             </div>
 
-            <ModalJoinUs/>
+            <ModalJoinUs />
         </>
     )
 }
