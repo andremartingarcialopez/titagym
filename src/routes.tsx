@@ -7,15 +7,19 @@ import OurGymPage from './pages/OurGymPage'
 import PersonalizedTrainingPage from './pages/PersonalizedTrainingPage'
 import GroupClassPage from './pages/GroupClassPage'
 import LayoutPages from './layout/LayoutPages'
+import ScrollToTop from './components/ScrollTop'
 
 
 export default function AppRoutes() {
     return (
+
         <div>
+           
             <BrowserRouter>
+             <ScrollToTop/>
                 <Routes>
                     <Route element={<LayoutPages/>}>
-
+                    
                     
                     <Route path="/" element={<HomePage/>} />
                     <Route path="/joinUs" element={<JoinUsPage/>} />
