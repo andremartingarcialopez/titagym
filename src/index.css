@@ -53,6 +53,13 @@ body {
   background-position: center;
 }
 
+.bg-personalized-class{
+  background-image: url("/clases-grupos.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 nuestro-gym.webp
 
 .glass {
