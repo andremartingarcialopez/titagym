@@ -60,6 +60,13 @@ body {
   background-position: center;
 }
 
+.bg-group-class{
+  background-image: url("/entrenamientos-personalizados.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 nuestro-gym.webp
 
 .glass {
