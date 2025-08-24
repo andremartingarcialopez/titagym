@@ -4,7 +4,7 @@ import { useAppStore } from '../stores/useAppStore';
 
 export default function Formulary() {
 
-    const { closeModal } = useAppStore();
+    const { closeModalJoinUs } = useAppStore();
 
     const isJoinUs = useMemo(() => {
         return location.pathname == "/joinUs"
@@ -153,7 +153,7 @@ export default function Formulary() {
                     value={"Contactame"}
                     type="submit" />
 
-                <button type='button' onClick={() => closeModal()} className={`bg-gray-400 p-2 rounded-lg uppercase hover:bg-gray-500 cursor-pointer hover:font-semibold active:bg-yellow-400 mt-3 w-full lg:w-50 ${!isJoinUs && "hidden"}`}>Cerrar</button>
+                <button type='button' onClick={() => closeModalJoinUs()} className={`bg-gray-400 p-2 rounded-lg uppercase hover:bg-gray-500 cursor-pointer hover:font-semibold active:bg-yellow-400 mt-3 w-full lg:w-50 ${!isJoinUs && "hidden"}`}>Cerrar</button>
             </div>
         </form>
     )

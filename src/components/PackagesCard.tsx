@@ -22,7 +22,7 @@ type PackesCardProps = {
 
 export default function PackagesCard({ pack, subtitle, totalPrice, duration, benefits }: PackesCardProps) {
 
-    const { opeanModal } = useAppStore()
+    const { opeanModalJoinUs } = useAppStore()
 
     return (
         <>
@@ -59,7 +59,7 @@ export default function PackagesCard({ pack, subtitle, totalPrice, duration, ben
                     </div>
                 </div>
 
-                <button onClick={() => opeanModal()} className="bg-yellow-400 w-full mt-5 p-2 rounded-lg uppercase text-black hover:font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-400">¡Inscribite ya!</button>
+                <button onClick={() => opeanModalJoinUs()} className="bg-yellow-400 w-full mt-5 p-2 rounded-lg uppercase text-black hover:font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-400">¡Inscribite ya!</button>
 
             </div>
 
