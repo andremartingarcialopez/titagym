@@ -1,23 +1,45 @@
 import { create } from "zustand";
+import type { GroupClassCard } from "../pages/GroupClassPage";
 
 type UseAppStoreTypes = {
-    modal: boolean;
-    opeanModal: () => void
-    closeModal: () => void
+    modalJoinUs: boolean;
+    opeanModalJoinUs: () => void;
+    closeModalJoinUs: () => void;
+    modalGroupClass: boolean;
+    openModalGroupClass: (cards: GroupClassCard) => void
+    closeModalGroupClass: () => void;
+    selectedGroupClass: GroupClassCard | null
+
 }
 
 export const useAppStore = create<UseAppStoreTypes>((set) => ({
-    modal: false,
-    opeanModal: () => {
+    modalJoinUs: false,
+    selectedGroupClass: null,
+    modalGroupClass: false,
+    opeanModalJoinUs: () => {
         set((state) => ({
             ...state,
-            modal: true
+            modalJoinUs: true
         }))
     },
-    closeModal: () => {
+    closeModalJoinUs: () => {
         set((state) => ({
             ...state,
-            modal: false
+            modalJoinUs: false
+        }))
+    },
+    openModalGroupClass: (card) => {
+        set((state) => ({
+            ...state,
+            modalGroupClass: true,
+            selectedGroupClass: card,
+        }))
+    },
+    closeModalGroupClass: () => {
+        set((state) => ({
+            ...state,
+            modalGroupClass: false,
+            selectedGroupClass: null,
         }))
     }
 

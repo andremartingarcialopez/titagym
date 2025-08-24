@@ -5,7 +5,7 @@ import Formulary from './Formulary';
 
 export default function ModalJoinUs() {
 
-    const { modal, closeModal } = useAppStore();
+    const { modalJoinUs, closeModalJoinUs } = useAppStore();
 
     /* const isJoinUs = useMemo(() => {
       return location.pathname == "/joinUs"
@@ -13,8 +13,8 @@ export default function ModalJoinUs() {
 
     return (
         <>
-            <Transition appear show={modal} as={Fragment}>
-                <Dialog as="div" className="relative z-10" onClose={() => closeModal()}>
+            <Transition appear show={modalJoinUs} as={Fragment}>
+                <Dialog as="div" className="relative z-10" onClose={() => closeModalJoinUs()}>
                     <Transition.Child
                         as={Fragment}
                         enter="ease-out duration-300"
