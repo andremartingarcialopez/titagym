@@ -47,7 +47,7 @@ body {
 }
 
 .bg-our-gym{
-    background-image: url("nuestro-gym.webp");
+    background-image: url("/nuestro-gym.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
