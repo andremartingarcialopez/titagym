@@ -16,9 +16,9 @@ export default function OurServices() {
           </div>
 
           <div className="flex flex-col xl:flex-row justify-center items-center xl:gap-5 group my-3">
-            <ServicesImages link="/our-gym" title={"nuestro Gimnasio"} image={"/nuestro-gym.webp"}/>
-            <ServicesImages link="/personalized-training" title={"Entrenamientos Personalizados"} image={"/clases-grupos.webp"}/>
-            <ServicesImages link="/group-class" title={"Clases en grupos"} image={"/entrenamientos-personalizados.webp"}/>
+            <ServicesImages link="/our-gym" title={"nuestro Gimnasio"} image={"https://img.freepik.com/foto-gratis/concepto-levantamiento-pesas-mancuernas_23-2149267003.jpg"}/>
+            <ServicesImages link="/personalized-training" title={"Entrenamientos Personalizados"} image={"https://img.freepik.com/foto-gratis/jovenes-que-entrenan-gimnasio-matutino_1157-28953.jpg"}/>
+            <ServicesImages link="/group-class" title={"Clases en grupos"} image={"https://img.freepik.com/foto-gratis/gente-feliz-forma-gimnasio-tiro-completo_23-2149445955.jpg"}/>
           </div>
 
         </div>

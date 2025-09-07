@@ -40,14 +40,14 @@ body {
 }
 
 .bg-img-our-family {
-  background-image: url("https://img.freepik.com/foto-gratis/cerrar-instructores-yoga-sonriendo_23-2150848045.jpg");
+  background-image: url("https://img.freepik.com/foto-gratis/cerrar-instructores-yoga-sonriendo_23-2150848045.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bg-our-gym{
-    background-image: url("/nuestro-gym.webp");
+    background-image: url("nuestro-gym.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .bg-group-class{
-  background-image: url("/entrenamientos-personalizados.webp");
+  background-image: url("/bg-group-class.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,3 +78,17 @@ nuestro-gym.webp
   border: 0px solid rgba(255, 255, 255, 0.18);
 
 }
+
+/* .carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  width: 100px;
+  height: 100px;
+}
+
+.elemento{
+  flex: 1 0 auto;
+  margin: 0 50px;
+    
+} */

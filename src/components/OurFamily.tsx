@@ -15,8 +15,8 @@ export default function OurFamily() {
           </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center  ">
-            <img className="lg:w-60 xl:w-85" src="/vertical1.webp" alt="" />
-            <img className="lg:w-60 xl:w-85" src="/vertical2.webp" alt="" />
+            <img className="lg:w-60 xl:w-85" src="https://img.freepik.com/foto-gratis/persona-haciendo-entrenamiento-crossfit_23-2149162330.jpg" alt="" />
+            <img className=" w-full lg:w-60 xl:w-85 xl:h-120" src="https://img.freepik.com/foto-gratis/mujer-abdominales-visibles-haciendo-ejercicio_23-2150228898.jpg" alt="" />
           </div>
         </div>
       </div>

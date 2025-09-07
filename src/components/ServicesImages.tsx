@@ -9,8 +9,8 @@ type ServicesImgesProps = {
 export default function ServicesImages({title,image, link}: ServicesImgesProps) {
     return (
         
-        <div className="relative group">
-            <img className=" xl:w-100" src={image} alt={title} />
+        <div className="relative group w-full ">
+            <img className=" w-full xl:w-100" src={image} alt={title} />
             {/* Overlay oscuro */}
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition duration-300"></div>
             {/* Texto centrado */}

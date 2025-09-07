@@ -38,6 +38,7 @@ export default function Menu() {
         className="w-10 h-10 hover:cursor-pointer text-white"/>
       </div>
       <ul className="text-white flex flex-col justify-center items-center space-y-3 pb-5">
+        <li><a href="#">Home</a></li>
         <li><a href="#ourFamily">Nuestra Familia</a></li>
         <li><a href="#ourServices">Nuestros Servicios</a></li>
         <li><a href="#contact">Contacto</a></li>
